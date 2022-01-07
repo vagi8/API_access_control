@@ -1,0 +1,41 @@
+flask based API access control - 
+
+Stack :
+	react
+	python
+	postgres
+
+Entire Scope:
+	Flask App binding
+	Login webpage - Admin vs other clients
+	Dashboard - Admin
+	Dashboard - client
+	Logging - Access Control
+	Billing
+
+Flask App binding
+	- Detect all endpoints
+	- Create before request - for logging
+	- create after request - for logging
+
+Dashboard - Admin
+1. Client Creation
+2. APP Creation/matching
+3. Client subSection
+	- single apikey access key - refresh
+	- API Access add/limit/Revoke
+	- API logs overall/per API
+4. Tickets
+
+Dashboard - Client
+1. APPs - All APIs and their limits
+2. API wise logs
+3. Insights
+
+--------------------------------------------
+
+DB
+
+Access Control
+Customer to service mapping
+customer to service 
